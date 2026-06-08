@@ -18,4 +18,3 @@ Aprovechando el fenómeno de la **Persistencia de la Visión (POV)** con retardo
 * **Simulación en Proteus:** Archivo de circuito virtual para validar el comportamiento lógico de los puertos y la multiplexación antes del montaje físico.
 * **Circuito:** Carpeta que almacena los registros y evidencias del circuito físico montado en la protoboard:
   * **Imágenes de Evidencia:** Fotografías detalladas de la conexión del microcontrolador.
-  * **Videos de Prueba:** Demostraciones en video que comprueban el funcionamiento exacto del circuito.
