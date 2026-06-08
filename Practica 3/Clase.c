@@ -20,7 +20,7 @@
 
 #define _XTAL_FREQ 8000000      // Frecuencia del oscilador (para __delay_ms y __delay_us)
 
-unsigned char display[10] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F};
+unsigned char display[10] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F}; // Declaración de los patrones para el LED (0-9). 
 
 void main(void){
     
@@ -29,8 +29,8 @@ void main(void){
     
     while(1){
         for(int i = 0; i<=9; i++){
-            PORTD = ~display[i];
-            __delay_ms(1000);
+            PORTD = ~display[i]; // Al ser ánodo común el display, se niega el patron del display. 
+            __delay_ms(1000); // Delay de un segundo para que sea visible el contador de 0 a 9. 
         }
     }
 }
