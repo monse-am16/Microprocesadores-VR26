@@ -16,5 +16,6 @@ Aprovechando el fenómeno de la **Persistencia de la Visión (POV)** con retardo
 
 * **Códigos Fuente (`main.c`):** Archivos con la configuración de fusibles, mapeo de patrones en binario/hexadecimal y el algoritmo de barrido dinámico.
 * **Simulación en Proteus:** Archivo de circuito virtual para validar el comportamiento lógico de los puertos y la multiplexación antes del montaje físico.
-* **Imágenes de Evidencia:** Fotografías que demuestran el armado del circuito físico.
-* **Videos de Prueba:** Demostración en video del funcionamiento en tiempo real.
+* **Circuito:** Carpeta que almacena los registros y evidencias del circuito físico montado en la protoboard:
+  * **Imágenes de Evidencia:** Fotografías detalladas de la conexión del microcontrolador.
+  * **Videos de Prueba:** Demostraciones en video que comprueban el funcionamiento exacto del circuito.
