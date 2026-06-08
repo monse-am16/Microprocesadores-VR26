@@ -20,5 +20,6 @@ Esta carpeta contiene todos los entregables y evidencias del desarrollo de la pr
 
 * **Códigos Fuente (`main.c`):** Archivos que contienen la configuración de fusibles (fuses) para el oscilador XT, los arreglos de datos mapeados para el display y los bucles secuenciales.
 * **Simulación en Proteus:** Archivo del circuito virtual para validar la correcta secuencia de encendido de los pines y descartar errores lógicos antes del montaje físico.
-* **Imágenes de Evidencia:** Fotografías que muestran el circuito implementado físicamente en la protoboard con el display y sus resistencias.
-* **Videos de Prueba:** Clips de video que demuestran el funcionamiento correcto.
+* **Circuito:** Carpeta que almacena los registros y evidencias del circuito físico montado en la protoboard:
+  * **Imágenes de Evidencia:** Fotografías detalladas de la conexión del microcontrolador, resistencias limitadoras y el display de 7 segmentos.
+  * **Videos de Prueba:** Demostraciones en video que comprueban el funcionamiento exacto del temporizador de 1 segundo por cada dígito.
