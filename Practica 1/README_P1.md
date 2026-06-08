@@ -15,36 +15,40 @@ El objetivo de esta práctica es la familiarización con la configuración bási
 
 En la practica, el programa manda un estado ALTO (`0xFF`) para encender todos los LEDs del puerto D, espera 500 milisegundos, e invierte el estado logico (`~PORTD`) para apagarlos, en un ciclo infinito.
 
-El código de esta práctica se encuentra aquí: [Clase.c](Clase.c)
+### Codigo 
+El codigo de esta practica se encuentra aqui: [Clase_1.c](Clase_1.c)
 
 ### Evidencia de Simulacion y Circuito Fisico
-![Simulacion Practica de Clase](simulacion_clase.png) 
-![Circuito Practica de Clase](circuito_clase.jpg)
+![Simulacion Practica de Clase](Simulacion_P1.jpeg)  *La simulacion es la misma para todas las practicas realizadas en clase*
+![Circuito Practica de Clase](Circuito_Practica_1.png) *Se empleo el mismo circuito fisico para todas las practicas, solo se hicieron cambios en el codigo*
+![Video de funcionamiento](Video_Practica_1.mp4) *En el video se muestran las secuencias definidas para todas las practicas*
 
 ---
 
 ## Actividad 1: Contador Binario de 6 Bits
 
-### 📝 Descripción
-Esta actividad consiste en un contador binario ascendente. Mediante un ciclo `for` que va del 0 al 63, el valor decimal se asigna directamente al registro `PORTD`. Esto provoca que los primeros 6 LEDs del puerto representen visualmente el conteo en formato binario, con un retardo de 500 ms entre cada incremento.
+### Descripcion
+La actividad 1 consiste en un contador binario ascendente de 6 bits, pero considerando 8 LEDs. Mediante un ciclo `for` que va del 0 al 63, el valor decimal se asigna directamente al registro `PORTD`. De esta manera los primeros 6 LEDs del puerto representan visualmente el conteo en formato binario, con un retardo de 500 ms entre cada incremento.
 
-### 💻 Código Fuente
-El código de esta actividad se encuentra aquí: [contador.c](contador.c) *(Asegúrate de poner el nombre exacto de tu archivo)*.
+### Codigo 
+El codigo de la actividad se encuentra aqui: [Actividad1_P1.c](Actividad1_P1.c)
 
-### ⚙️ Evidencia de Simulación y Circuito Físico
-![Simulación Contador](simulacion_contador.png) 
-![Circuito Contador](circuito_contador.jpg)
+### Evidencia de Simulacion y Circuito Fisico
+![Simulación Contador](Simulacion_P1.jpeg)
+![Circuito Contador](Circuito_Practica_1.png) 
+![Video de funcionamiento](Video_Practica_1.mp4) 
 
 ---
 
-## 🔴 Actividad 2: Caminata de 8 LEDs
+## Actividad 2: Caminata de 8 LEDs
 
-### 📝 Descripción
-Esta actividad crea un efecto visual de "ida y vuelta" con un solo LED encendido a la vez recorriendo todo el Puerto D. Para lograrlo, se utilizan operaciones de desplazamiento de bits a la izquierda (`1<<i`). El primer ciclo `for` realiza la secuencia de ida (del pin 0 al 7), y el segundo ciclo realiza el regreso (del pin 6 al 0), repitiéndose de forma continua.
+### Descripcion
+En esta actividad se busca crear un efecto visual de "ida y vuelta" con un solo LED encendido a la vez recorriendo todo el Puerto D. Para esto, se utilizaron operaciones de desplazamiento de bits a la izquierda (`1<<i`). El primer ciclo `for` realiza la secuencia de ida (del pin 0 al 7), y el segundo ciclo realiza el regreso (del pin 6 al 0), repitiendo el ciclo de forma continua.
 
-### 💻 Código Fuente
-El código de esta actividad se encuentra aquí: [caminata.c](caminata.c) *(Asegúrate de poner el nombre exacto de tu archivo)*.
+### Codigo
+El codigo de esta actividad se encuentra aqui: [Actividad2_P1.c](Actividad2_P1.c)
 
-### ⚙️ Evidencia de Simulación y Circuito Físico
-![Simulación Caminata](simulacion_caminata.png) 
-![Circuito Caminata](circuito_caminata.jpg)
+### Evidencia de Simulacion y Circuito Fisico
+![Simulación Caminata](Simulacion_P1.jpeg)
+![Circuito Caminata](Circuito_Practica_1.png) 
+![Video de funcionamiento](Video_Practica_1.mp4) 
