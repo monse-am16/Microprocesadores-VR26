@@ -23,14 +23,14 @@
 unsigned char Estado1, Estado2, Estado3;
 
 void main(void){
-    // Dado que el PIC presenta pines análogos, se deben de declarar como digital. 
+    // Dado que el PIC presenta pines anÃ¡logos, se deben de declarar como digital. 
     ANSEL = 0; 
     
-    // Dado que son más de 8 bits, se tiene que usar otra palabra de configuración adicional. 
+    // Dado que son mÃ¡s de 8 bits, se tiene que usar otra palabra de configuraciÃ³n adicional. 
     ANSELH = 0;
     
     // El pin tiene resistencia de pull up internas.
-    OPTION_REG = OPTION_REG & 0b01111111; // Se mantiene igual todos los bits menos el último.
+    OPTION_REG = OPTION_REG & 0b01111111; // Se mantiene igual todos los bits menos el Ãºltimo.
     
     TRISB = 0xFF; // Todo el puerto B se configura como entrada. 
     TRISD = 0x0; // Todo el puerto D se configura como salida. 
