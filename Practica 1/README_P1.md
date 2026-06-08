@@ -1,6 +1,7 @@
 # Practica 1
 
 **Materia:** Microprocesadores 
+
 **Integrantes del equipo:**
 * [Diego Adrian Castro Ovalle]
 * [Monserrat Ayala Muñoz]
