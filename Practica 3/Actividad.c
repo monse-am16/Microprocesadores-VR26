@@ -19,16 +19,16 @@
 //=============================================================================
 
 #define _XTAL_FREQ 8000000      // Frecuencia del oscilador (para __delay_ms y __delay_us)
-unsigned char display[16] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71};
+unsigned char display[16] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71}; // Declaración de patron del 0 al F. 
 
 void main(void){
-    TRISD = 0; 
-    PORTD = 0; 
+    TRISD = 0; // Reseteo de puerto D. 
+    PORTD = 0; // Definir puerto D como salida. 
     
     while(1){
         for(int i=0; i<=15;i++){
-            PORTD = ~display[i];
-            __delay_ms(1000);
+            PORTD = ~display[i]; // Al ser ánodo común, se niega el patrón. 
+            __delay_ms(1000); // Delay de un 1 segundo para que sea visible cada patrón del display. 
         }
     }
 }
