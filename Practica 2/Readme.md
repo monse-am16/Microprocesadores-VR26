@@ -8,7 +8,7 @@ El propósito principal de la práctica es optimizar el uso de los pines del mic
 
 Aprovechando el fenómeno de la **Persistencia de la Visión (POV)** con retardos de 5 ms por fila, el sistema realiza un escaneo dinámico tan rápido que el ojo humano percibe una imagen integrada y estable. El repositorio incluye dos lógicas de funcionamiento:
 1. **Despliegue Secuencial:** Muestra cíclicamente las letras **'D', 'G', 'M', 'N'**, reteniendo cada carácter en pantalla durante aproximadamente un segundo.
-2. **Patrón Estático:** Despliega una forma geométrica fija en forma de **'X'**.
+2. **Patrón Estático:** Despliega una letra fija **'X'**.
 
 ---
 
