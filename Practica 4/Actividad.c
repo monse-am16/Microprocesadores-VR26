@@ -23,14 +23,14 @@
 unsigned char display[10] = {0xC0, 0xF9, 0xA4, 0xB0, 0x99, 0x92, 0x82, 0xF8, 0x80, 0x90};
 
 void main(void){
-    // Configuraci髇 de pines como digitales. 
+    // Configuraci贸n de pines como digitales. 
     ANSEL = 0; 
     ANSELH = 0; 
     
     // Habilitar resistencias internas de pull-up. 
     OPTION_REG = OPTION_REG & 0b01111111; 
     
-    // Configuraci髇 de entradas y salidas. 
+    // Configuraci贸n de entradas y salidas. 
     TRISB = 0xFF;
     TRISC = 0x0; 
     TRISD = 0x0; 
@@ -64,27 +64,27 @@ void main(void){
         }
         estado_modo_anterior = PORTBbits.RB2;
         
-        // Bot髇 de incremento (Exclusivo para RB0)
+        // Bot贸n de incremento (Exclusivo para RB0)
         if(PORTBbits.RB0 == 0 && estado_inc_anterior == 1){
             __delay_ms(20);
             if(PORTBbits.RB0 == 0){ // Confirmamos el mismo pin RB0
                 contador += paso; 
-                if (contador > 99) contador = contador - 100; // Ajuste matem醫ico de desbordamiento superior
+                if (contador > 99) contador = contador - 100; // Ajuste matem谩tico de desbordamiento superior
             }
         }
         estado_inc_anterior = PORTBbits.RB0; // Actualizamos el estado de RB0
         
-        // Bot髇 de decremento (Exclusivo para RB1)
+        // Bot贸n de decremento (Exclusivo para RB1)
         if(PORTBbits.RB1 == 0 && estado_dec_anterior == 1){
             __delay_ms(20);
             if(PORTBbits.RB1 == 0){ // Confirmamos el mismo pin RB1
                 contador -= paso; 
-                if(contador < 0) contador = contador + 100; // Ajuste matem醫ico de desbordamiento inferior
+                if(contador < 0) contador = contador + 100; // Ajuste matem谩tico de desbordamiento inferior
             }
         }
         estado_dec_anterior = PORTBbits.RB1; // Actualizamos el estado de RB1
         
-        // Matem醫icas para los displays
+        // Matem谩ticas para los displays
         decenas = contador / 10;
         unidades = contador % 10; 
         
