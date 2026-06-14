@@ -16,9 +16,9 @@ El código de esta práctica se encuentra aqui: [Clase_7.c](Codigo/Clase_7.c)
 
 ### Simulacion y Circuito Fisico
 
-[Simulacion de Clase](Simulacion/Simulacion_Clase_7.png) 
-[Circuito Practica 7](Circuito/Circuito_Practica_7.png) 
-[Video Practica 7](Circuito/Video_Practica_7.mp4) 
+* [Simulacion de Clase](Simulacion/Simulacion_Clase_7.png) 
+* [Circuito Practica 7](Circuito/Circuito_Practica_7.png) 
+* [Video Practica 7](Circuito/Video_Practica_7.mp4) 
 
 *El circuito y el video son los mismos para la practica y la actividad de clase, ya que en la actividad de clase se integra el codigo desarrollado con el profesor*
 
@@ -39,8 +39,8 @@ El código de esta actividad se encuentra aqui: [Actividad_7.c](Codigo/Actividad
 
 ### Simulacion y Circuito Fisico
 
-[Simulacion de Actividad 7](Simulacion/Simulacion_Actividad_7.png) 
-[Circuito Practica 7](Circuito/Circuito_Practica_7.png) 
-[Video Practica 7](Circuito/Video_Practica_7.mp4) 
+* [Simulacion de Actividad 7](Simulacion/Simulacion_Actividad_7.png) 
+* [Circuito Practica 7](Circuito/Circuito_Practica_7.png) 
+* [Video Practica 7](Circuito/Video_Practica_7.mp4) 
 
 *El circuito y el video son los mismos para la practica y la actividad de clase, ya que en la actividad de la sesion se integra el codigo desarrollado con el profesor*
