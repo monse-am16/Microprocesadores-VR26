@@ -15,7 +15,7 @@ El programa procesa secuencialmente ambos canales, transformando el valor digita
 El código de esta práctica se encuentra aquí: [Clase_8.c](Codigo/Clase_8.c)
 
 ### Simulación y Circuito Físico
-[Simulación Clase 8](Simulacion/MP.Practica 8.png) 
+[Simulación Clase 8](Simulacion/MP.Practica%208.png) 
 [Circuito Práctica 8](Circuito/Circuito_Practica_8.png) 
 [Video Práctica 8](Circuito/Video_Practica_8.mp4) 
 
