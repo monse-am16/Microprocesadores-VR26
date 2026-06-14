@@ -15,9 +15,9 @@ El Puerto B se configura en su totalidad como entrada (`TRISB = 0xFF`) y el Puer
 El código de esta práctica se encuentra aquí: [Clase_4.c](Codigo/Clase_4.c)
 
 ### Simulación y Circuito Físico
-[Simulación Clase 4](Simulacion/MP.%20Clase%204.png)
-[Circuito Práctica 4](Circuito/Circuito_Clase_4.jgg)
-[Video Práctica 4](Circuito/Video_Clase_4.mp4)
+* [Simulación Clase 4](Simulacion/MP.%20Clase%204.png)
+* [Circuito Práctica 4](Circuito/Circuito_Clase_4.jgg)
+* [Video Práctica 4](Circuito/Video_Clase_4.mp4)
 
 ---
 
@@ -39,6 +39,6 @@ Finalmente, el valor decimal del contador se divide matemáticamente para aislar
 El código de esta actividad se encuentra aquí: [Actividad_4.c](Codigo/Actividad_4.c)
 
 ### Simulación y Circuito Físico
-[Simulación Actividad 4](Simulacion/MP.%20Practica%204.png)
-[Circuito Práctica 4](Circuito/Circuito_Actividad_4.jgg)
-[Video Práctica 4](Circuito/Video_Actividad_4.mp4)
+* [Simulación Actividad 4](Simulacion/MP.%20Practica%204.png)
+* [Circuito Práctica 4](Circuito/Circuito_Actividad_4.jgg)
+* [Video Práctica 4](Circuito/Video_Actividad_4.mp4)
