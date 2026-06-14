@@ -39,7 +39,7 @@ El código de esta actividad se encuentra aqui: [Actividad_7.c](Codigo/Actividad
 
 ### Simulacion y Circuito Fisico
 
-[Simulacion de Atividad 7](Simulacion/Simulacion_Actividad_7.png) 
+[Simulacion de Actividad 7](Simulacion/Simulacion_Actividad_7.png) 
 [Circuito Practica 7](Circuito/Circuito_Practica_7.png) 
 [Video Practica 7](Circuito/Video_Practica_7.mp4) 
 
