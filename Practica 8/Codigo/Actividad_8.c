@@ -78,7 +78,7 @@ void main(void){
             }
         }
         
-        // Boton 2: Cambia Canal 1/Canal 2 ---
+        // Boton 2: Cambia Canal
         if (PORTBbits.RB1 == 0){
             __delay_ms(50); 
             if (PORTBbits.RB1 == 0){
