@@ -1,6 +1,6 @@
 # Practica 5: Convertidor Analogico-Digital (ADC), pantalla LCD e interrupciones
 
-El objetivo principal de esta sesion es la lectura de señales analógicas utilizando el modulo ADC del microcontrolador (RA0), el procesamiento de estos datos y su posterior visualizacion en una pantalla LCD; aunado a esto, se incorpora el uso de interrupciones externas. Al igual que en practicas anteriores, la frecuencia del oscilador (HS) está configurada a 8 MHz.
+Este repositorio integra las 3 partes que componen la práctica 5. El objetivo principal de la práctica ---
 
 ---
 
