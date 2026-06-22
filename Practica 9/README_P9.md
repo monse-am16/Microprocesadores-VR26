@@ -36,8 +36,3 @@ Finalmente, la información se organiza en la pantalla de la siguiente manera:
 
 ### Código Fuente
 El código de esta actividad se encuentra aquí: [Actividad_9.c](Codigo/Actividad_9.c)
-
-### Simulación y Circuito Físico
-* [Simulación Actividad 9](Simulacion/MP.Actividad%209.png) 
-* [Circuito Práctica 9](Circuito/Circuito_Practica_9.jpg) 
-* [Video Práctica 9](Circuito/Video_Practica_9.mp4)
