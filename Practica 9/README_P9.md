@@ -15,7 +15,7 @@ Cada vez que la bandera de interrupción `T0IF` se activa, se incrementa una var
 El código de esta práctica se encuentra aquí: [Clase_9.c](Codigo/Clase_9.c)
 
 ### Simulación y Circuito Físico
-* [Simulación Clase 9](Simulacion/MP.Practica%209.png) 
+* [Simulación Clase 9](Simulacion/MP.%20Practica%209.png) 
 * [Circuito Práctica 9](Circuito/Circuito_Practica_9.jpg) 
 * [Video Práctica 9](Circuito/Video_Practica_9.mp4) 
 
