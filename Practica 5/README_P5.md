@@ -1,6 +1,6 @@
-# Practica 5: Convertidor Analogico-Digital (ADC), pantalla LCD e interrupciones
+# Practica 5: Multiplexacion e interrupciones externas
 
-Este repositorio integra las 3 partes que componen la práctica 5. El objetivo principal de la práctica ---
+Este repositorio integra las 3 partes que componen la práctica 5. El objetivo principal de la práctica es comprender la tecnica de multiplexacion empleada en el control de varios displays de 7 segmentos, así como el manejo de interrupciones externas y la lectura de entradas digitales. Al igual que en practicas anteriores, la frecuencia del oscilador es de 8 MHz.  
 
 ---
 
