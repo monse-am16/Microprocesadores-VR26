@@ -20,3 +20,12 @@ El código de esta actividad se encuentra aquí: [Actividad_11.c](Codigo/Activid
 * [Simulación Actividad 11](Simulacion/MP.%20Practica%2011.png) 
 * [Circuito Práctica 11](Circuito/Circuito_Practica_11.jpg) 
 * [Video Práctica 11](Circuito/Video_Practica_11.mp4)
+
+## Lista de Materiales
+* PIC16F887
+* Cristal de Cuarzo de 8 MHz
+* 2 Potenciómetros lineales de 10k
+* 1 Push Button
+* 2 LEDs
+* 2 Resistencias de 330
+* 1 Resistencia de 1k
