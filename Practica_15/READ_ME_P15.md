@@ -3,6 +3,16 @@
 El objetivo principal de esta sesion es establecer una comunicacion entre dos microcontroladores PIC. Para ello, se selecciono el protocolo serial asincrono UART (Universal Asynchronous Receiver-Transmitter). Esta practica se realizo en conjunto con otro equipo, permitiendo que un microcontrolador actue exclusivamente como transmisor y el otro como receptor. Al igual que en practicas anteriores, la frecuencia del oscilador esta configurada a 8 MHz, y se establecio una velocidad de comunicacion (Baud Rate) de 9600 baudios para sincronizar ambos dispositivos.
 
 ---
+## Materiales: 
+* 2 PIC16F887
+* 3 pulsadores
+* Potenciometro 10k
+* 2 cristales de cuarzo de 8 MHz
+* 1 LED Rojo
+* 2 resistencias de 1k
+* Resistencia de 330
+
+---
 
 ## Parte 1: PIC Transmisor
 
