@@ -4,6 +4,18 @@ El objetivo de este proyecto es integrar los conocimientos adquiridos durante el
 
 ---
 
+## Materiales:
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* 2 pulsadores
+* 1 resistencia de 1k
+* 1 resistencia de 330
+* 1 LCD 16 x 2
+* 1 potenciometro de 1k
+* 1 modulo joystick
+
+---
+
 ## Descripción del Proyecto
 
 El sistema utiliza un **Joystick Analógico** como interfaz principal de control del usuario. El microcontrolador lee secuencialmente dos canales analógicos (AN0 para el eje X y AN1 para el eje Y) empleando el módulo **ADC**. Al evaluar la lectura analógica y compararla contra umbrales definidos (menor a 300 o mayor a 600), el programa determina la dirección del movimiento y actualiza las coordenadas matriciales `(x, y)` del personaje principal.
