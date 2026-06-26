@@ -10,6 +10,13 @@ Aprovechando el fenómeno de la **Persistencia de la Visión (POV)** con retardo
 1. **Despliegue Secuencial:** Muestra cíclicamente las letras **'D', 'G', 'M', 'N'**, reteniendo cada carácter en pantalla durante aproximadamente un segundo.
 2. **Patrón Estático:** Despliega una letra fija **'X'**.
 
+## Materiales: 
+* PIC16F887
+* 1 pulsador
+* 1 resistencia de 1k
+* 1 cristal de cuarzo de 8 MHz
+* Matriz LED 8x8
+
 ---
 
 ## Contenido de la Carpeta
