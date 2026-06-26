@@ -41,7 +41,7 @@ El codigo de esta actividad se encuentra aqui: [Actividad_2.c](Codigo/Actividad_
 
 * [Simulacion de Actividad 2](Simulacion/Simulacion_Practica_12.png) 
 * [Circuito Practica 12](Circuito/Circuito_Actividad_12.jpg) 
-* [Video Practica 12](Circuito/Video_Actividad_12B.mp4) 
+* [Video Actividad 2](Circuito/Video_Actividad_12B.mp4) 
 
 ---
 
