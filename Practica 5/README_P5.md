@@ -11,10 +11,10 @@ En esta primera parte se implementa un contador del 0 al 9999 utilizando un disp
 El microcontrolador descompone el numero en millares, centenas, decenas y unidades. Luego, mediante el Puerto C, enciende un solo digito a la vez, enviando la secuencia correspondiente por el Puerto D. Este proceso se repite con retardos muy cortos (`__delay_ms(1)`), engañando al ojo humano por la persistencia de la vision.
 
 ### Codigo Fuente
-El codigo de esta práctica se encuentra aqui: [Clase_7.c](Codigo/Clase_5A.c)
+El codigo de esta práctica se encuentra aqui: [Clase_5A.c](Codigo/Clase_5A.c)
 
 ### Simulacion
-* [Simulacion de Clase 5A](Simulacion/MP.%20Clase%205A.png) 
+* [Simulacion de Clase 5A](<Simulacion/MP. Clase 5A.png>) 
 
 
 ---
@@ -26,10 +26,10 @@ Se introduce el uso de **Interrupciones Externas** por hardware. Se define el pi
 El programa principal (bucle `while`) simplemente muestra un contador del 0 al 9 en un solo display de 7 segmentos. Sin embargo, al presionar el botón conectado a RB0, se activa la bandera `INTF` e interrumpe el programa para ejecutar la función `ISR` (Rutina de Servicio de Interrupción), la cual hace parpadear un LED conectado en RC0 antes de regresar a la cuenta normal.
 
 ### Codigo Fuente
-El codigo de esta práctica se encuentra aqui: [Clase_7.c](Codigo/Clase_5B.c)
+El codigo de esta práctica se encuentra aqui: [Clase_5B.c](Codigo/Clase_5B.c)
 
 ### Simulacion
-* [Simulacion de Clase 5B](Simulacion/MP.%20Practica%205B.png) 
+* [Simulacion de Clase 5B](<Simulacion/MP. Clase 5B.png>) 
 
 ---
 
@@ -40,11 +40,11 @@ Esta actividad combina la multiplexacion de la Clase 5A con la lectura de botone
 El programa consiste en un contador de 0 a 9999 que se muestra en los 4 displays. Al detectar que el pulsador conectado a RB0 es presionado (cambio de estado de 1 a 0), el sistema invierte la direccion del conteo, permitiendo que el contador incremente o decremente dinamicamente. 
 
 ### Codigo Fuente
-El codigo de esta actividad se encuentra aqui: [Actividad_7.c](Codigo/Actividad_5.c)
+El codigo de esta actividad se encuentra aqui: [Actividad_5.c](Codigo/Actividad_5.c)
 
 ### Simulacion y Circuito Fisico
 
-* [Simulacion de Actividad 7](Simulacion/MP.%20Practica%205.png) 
+* [Simulacion de Actividad 7](<Simulacion/MP. Practica 5.png>) 
 * [Circuito Practica 7](Circuito/Circuito_Practica_5.jpg) 
 * [Video Practica 7](Circuito/Video_Practica_5.mp4) 
 
