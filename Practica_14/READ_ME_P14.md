@@ -18,6 +18,13 @@ El codigo de esta actividad se encuentra aqui: [Actividad_1.c](Codigo/Actividad_
 * [Circuito Practica 14A](Circuito/Circuito_Actividad_14A.jpg) 
 * [Video Practica 14A](Circuito/Video_Actividad_14A.mp4) 
 
+## Lista de Materiales
+* PIC16F887
+* 1 Cristal de Cuarzo de 8 MHz
+* 1 Push Button
+* 1 Resistencia de 1k
+* 1 Servomotor azul SG90
+
 ---
 
 ## Actividad 2: Control de Angulo con Potenciometro
