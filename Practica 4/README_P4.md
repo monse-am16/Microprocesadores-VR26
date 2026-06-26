@@ -19,6 +19,16 @@ El código de esta práctica se encuentra aquí: [Clase_4.c](Codigo/Clase_4.c)
 * [Circuito Práctica 4](Circuito/Circuito_Clase_4.jgg)
 * [Video Práctica 4](Circuito/Video_Clase_4.mp4)
 
+## Materiales: 
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* 4 pulsadores
+* 1 resistencia de 1k
+* 3 resistencias de 330
+* 1 LED Rojo
+* 1 LED Azul
+* 1 LED Verde
+
 ---
 
 ## Actividad 4: Contador de 0 a 99 de Pasos Variables con Displays de 7 Segmentos
@@ -42,3 +52,11 @@ El código de esta actividad se encuentra aquí: [Actividad_4.c](Codigo/Activida
 * [Simulación Actividad 4](Simulacion/MP.%20Practica%204.png)
 * [Circuito Práctica 4](Circuito/Circuito_Actividad_4.jgg)
 * [Video Práctica 4](Circuito/Video_Actividad_4.mp4)
+
+## Materiales: 
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* 4 pulsadores
+* 1 resistencia de 1k
+* 14 resistencias de 330
+* 2 Displays de 7 Segmentos Anodo Comun
