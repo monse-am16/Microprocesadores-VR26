@@ -14,7 +14,7 @@ El microcontrolador descompone el numero en millares, centenas, decenas y unidad
 El codigo de esta práctica se encuentra aqui: [Clase_7.c](Codigo/Clase_5A.c)
 
 ### Simulacion
-* [Simulacion de Clase 5A](Simulacion/MP.Clase_5A.png) 
+* [Simulacion de Clase 5A](Simulacion/MP.%20Clase%205A.png) 
 
 
 ---
@@ -29,7 +29,7 @@ El programa principal (bucle `while`) simplemente muestra un contador del 0 al 9
 El codigo de esta práctica se encuentra aqui: [Clase_7.c](Codigo/Clase_5B.c)
 
 ### Simulacion
-* [Simulacion de Clase 5B](Simulacion/MP.Clase_5B.png) 
+* [Simulacion de Clase 5B](Simulacion/MP.%20Clase%205B.png) 
 
 ---
 
@@ -44,7 +44,7 @@ El codigo de esta actividad se encuentra aqui: [Actividad_7.c](Codigo/Actividad_
 
 ### Simulacion y Circuito Fisico
 
-* [Simulacion de Actividad 7](Simulacion/MP.Practica_5.png) 
+* [Simulacion de Actividad 7](Simulacion/MP.%20Practica%205.png) 
 * [Circuito Practica 7](Circuito/Circuito_Practica_5.jpg) 
 * [Video Practica 7](Circuito/Video_Practica_5.mp4) 
 
