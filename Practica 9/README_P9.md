@@ -19,8 +19,6 @@ El código de esta práctica se encuentra aquí: [Clase_9.c](Codigo/Clase_9.c)
 * [Circuito Práctica 9](Circuito/Circuito_Clase_9.jpg) 
 * [Video Práctica 9](Circuito/Video_Clase_9.mp4) 
 
-*El circuito y el video son los mismos para la práctica y la actividad de clase, ya que en la actividad se integran ambos funcionamientos.*
-
 ---
 
 ## Actividad 9: Multímetro con Cronómetro Integrado
@@ -36,3 +34,8 @@ Finalmente, la información se organiza en la pantalla de la siguiente manera:
 
 ### Código Fuente
 El código de esta actividad se encuentra aquí: [Actividad_9.c](Codigo/Actividad_9.c)
+
+### Simulación y Circuito Físico
+* [Simulación Clase 9](Simulacion/MP.%20Practica%209.png) 
+* [Circuito Práctica 9](Circuito/Circuito_Actividad_9.jpg) 
+* [Video Práctica 9](Circuito/Video_Actividad_9.mp4) 
