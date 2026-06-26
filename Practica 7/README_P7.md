@@ -4,6 +4,18 @@ El objetivo principal de esta sesion es la lectura de señales analógicas utili
 
 ---
 
+## Materiales:
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* 2 pulsadores
+* 1 resistencia de 1k
+* 1 resistencia de 330
+* 1 LCD 16 x 2
+* 1 potenciometro de 1k
+* 1 potenciometro de 10k
+
+---
+
 ## Clase 7: Lectura de voltaje analogico
 
 ### Descripción
