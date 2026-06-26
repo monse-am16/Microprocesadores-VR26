@@ -16,10 +16,8 @@ El código de esta práctica se encuentra aquí: [Clase_10.c](Codigo/Clase_10.c)
 
 ### Simulación y Circuito Físico
 * [Simulación Clase 10](Simulacion/MP.%20Practica%2010.png) 
-* [Circuito Práctica 10](Circuito/Circuito_Practica_10.jpg) 
-* [Video Práctica 10](Circuito/Video_Practica_10.mp4) 
-
-*El circuito y el video son los mismos para la práctica y la actividad de clase, ya que en la actividad se integran ambos funcionamientos.*
+* [Circuito Práctica 10](Circuito/Circuito_Clase_10.jpg) 
+* [Video Práctica 10](Circuito/Video_Clase_10.mp4) 
 
 ---
 
@@ -36,3 +34,7 @@ La interfaz de la pantalla LCD se organiza de la siguiente manera:
 
 ### Código Fuente
 El código de esta actividad se encuentra aquí: [Actividad_10.c](Codigo/Actividad_10.c)
+
+* [Simulación Clase 10](Simulacion/MP.%20Practica%2010.png) 
+* [Circuito Práctica 10](Circuito/Circuito_Actividad_10.jpg) 
+* [Video Práctica 10](Circuito/Video_Actividad_10.mp4) 
