@@ -52,3 +52,11 @@ Para mantener el programa principal limpio y facilitar la reutilizacion de codig
 
 * **Control de Pantalla LCD:** [lcd.c](Codigo/lcd.c) y [lcd.h](Codigo/lcd.h)
 * **Control del Teclado Matricial:** [Keypad.c](Codigo/Keypad.c) y [Keypad.h](Codigo/Keypad.h)
+
+## Lista de Materiales
+* PIC16F887
+* Cristal de Cuarzo de 8 MHz
+* Display LCD 2x16
+* Teclado numérico matricial 4x4
+* Push Button
+* Resistencia de 1k
