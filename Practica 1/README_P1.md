@@ -1,12 +1,15 @@
 # Practica 1
 
-**Materia:** Microprocesadores 
-
-**Integrantes del equipo:**
-* [Diego Adrian Castro Ovalle]
-* [Monserrat Ayala Muñoz]
-
 En este repositorio se encuentran documentadas la practica realizada durante la sesion de clase y las dos actividades complementarias. En todas las practicas se utiliza el **Puerto D** configurado como salida digital y un cristal de cuarzo como oscilador configurado a 8 MHz.
+
+---
+## Materiales
+* PIC16F887
+* 1 pulsador
+* 1 resistencia de 1k
+* 1 cristal de cuarzo de 8Mhz
+* 8 LEDs rojos
+* 8 resistencias de 330
 
 ---
 ## Practica de clase: Hacer parpadear LEDs 
@@ -20,11 +23,11 @@ En la practica, el programa manda un estado ALTO (`0xFF`) para encender todos lo
 El codigo de esta practica se encuentra aqui: [Clase_1.c](Codigo/Clase_1.c)
 
 ### Evidencia de Simulacion y Circuito Fisico
-[Simulacion Practica de Clase](Simulacion/Simulacion_P1.jpeg) 
+* [Simulacion Practica de Clase](Simulacion/Simulacion_P1.jpeg) 
 *La simulacion es la misma para todas las practicas realizadas en clase*
-[Circuito Practica de Clase](Circuito/Circuito_Practica_1.png) 
+* [Circuito Practica de Clase](Circuito/Circuito_Practica_1.png) 
 *Se empleo el mismo circuito fisico para todas las practicas, solo se hicieron cambios en el codigo*
-[Video de funcionamiento](Circuito/Video_Practica_1.mp4) 
+* [Video de funcionamiento](Circuito/Video_Practica_1.mp4) 
 *En el video se muestran las secuencias definidas para todas las practicas*
 
 ---
