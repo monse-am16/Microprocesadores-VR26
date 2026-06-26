@@ -17,7 +17,16 @@ El código de esta práctica se encuentra aquí: [Clase_10.c](Codigo/Clase_10.c)
 ### Simulación y Circuito Físico
 * [Simulación Clase 10](Simulacion/MP.%20Practica%2010.png) 
 * [Circuito Clase 10](Circuito/Circuito_Clase_10.jpg) 
-* [Video Clase 10](Circuito/Video_Clase_10.mp4) 
+* [Video Clase 10](Circuito/Video_Clase_10.mp4)
+
+## Materiales:
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* 1 pulsador
+* 1 resistencia de 1k
+* 1 resistencia de 330
+* 1 LCD 16 x 2
+* 1 potenciometro de 1k
 
 ---
 
@@ -38,4 +47,14 @@ El código de esta actividad se encuentra aquí: [Actividad_10.c](Codigo/Activid
 ### Simulación y Circuito Físico
 * [Simulación Clase 10](Simulacion/MP.%20Practica%2010.png) 
 * [Circuito Actividad 10](Circuito/Circuito_Actividad_10.jpg) 
-* [Video Actividad 10](Circuito/Video_Actividad_10.mp4) 
+* [Video Actividad 10](Circuito/Video_Actividad_10.mp4)
+
+## Materiales:
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* 1 pulsador
+* 1 resistencia de 1k
+* 1 resistencia de 330
+* 1 LCD 16 x 2
+* 1 potenciometro de 1k
+* 1 potenciometro de 10k
