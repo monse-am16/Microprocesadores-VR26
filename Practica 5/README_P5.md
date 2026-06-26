@@ -48,3 +48,9 @@ El codigo de esta actividad se encuentra aqui: [Actividad_5.c](Codigo/Actividad_
 * [Circuito Practica 7](Circuito/Circuito_Practica_5.jpg) 
 * [Video Practica 7](Circuito/Video_Practica_5.mp4) 
 
+## Materiales:
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* 2 pulsadores
+* 1 resistencia de 1k
+* Display de 7 segmentos de 4 digitos anodo comun
