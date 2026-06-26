@@ -17,7 +17,17 @@ El codigo de esta actividad se encuentra aqui: [Actividad_1.c](Codigo/Actividad_
 
 * [Simulacion de Actividad 1](<Simulacion/MP. Practica 13_1.png>) 
 * [Circuito Practica 13A](Circuito/Circuito_Actividad_13A.jpg) 
-* [Video Practica 13A](Circuito/Video_Actividad_13A.mp4) 
+* [Video Practica 13A](Circuito/Video_Actividad_13A.mp4)
+
+## Lista de Materiales
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* Potenciómetro de 10k lineal
+* 2 Resistencias de 1k
+* 1 Transistor 2N2222
+* 1 Diodo 1N4007
+* 1 Motor reductor de doble eje tipo 1
+* 1 Batería de 9 V
 
 ---
 
@@ -40,9 +50,8 @@ El codigo de esta actividad se encuentra aqui: [Actividad_2.c](Codigo/Actividad_
 * PIC16F887
 * Cristal de cuarzo de 8 MHz
 * Potenciómetro de 10k lineal
-* 2 Resistencias de 1k
-* 1 Transistor 2N2222
-* 5 Diodo 1N4007
+* 1 Resistencia de 1k
+* 4 Diodo 1N4007
 * 1 Motor reductor de doble eje tipo 1
 * 1 Puente H L298N
 * 1 Batería de 9 V
