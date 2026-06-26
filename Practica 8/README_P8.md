@@ -4,6 +4,18 @@ El objetivo principal de esta sesión es la configuración y lectura de múltipl
 
 ---
 
+## Materiales:
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* 3 pulsadores
+* 1 resistencia de 1k
+* 1 resistencia de 330
+* 1 LCD 16 x 2
+* 1 potenciometro de 1k
+* 2 potenciometros de 10k
+
+---
+
 ## Clase 8: Lectura Simultánea de Dos Canales Analógicos
 
 ### Descripción
