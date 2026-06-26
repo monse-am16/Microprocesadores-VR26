@@ -17,7 +17,16 @@ El código de esta práctica se encuentra aquí: [Clase_9.c](Codigo/Clase_9.c)
 ### Simulación y Circuito Físico
 * [Simulación Clase 9](Simulacion/MP.%20Practica%209.png) 
 * [Circuito Práctica 9](Circuito/Circuito_Clase_9.jpg) 
-* [Video Práctica 9](Circuito/Video_Clase_9.mp4) 
+* [Video Práctica 9](Circuito/Video_Clase_9.mp4)
+
+## Materiales:
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* 1 pulsador
+* 1 resistencia de 1k
+* 1 resistencia de 330
+* 1 LCD 16 x 2
+* 1 potenciometro de 1k
 
 ---
 
@@ -38,4 +47,14 @@ El código de esta actividad se encuentra aquí: [Actividad_9.c](Codigo/Activida
 ### Simulación y Circuito Físico
 * [Simulación Clase 9](Simulacion/MP.%20Practica%209.png) 
 * [Circuito Práctica 9](Circuito/Circuito_Actividad_9.jpg) 
-* [Video Práctica 9](Circuito/Video_Actividad_9.mp4) 
+* [Video Práctica 9](Circuito/Video_Actividad_9.mp4)
+
+* ## Materiales:
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* 1 pulsador
+* 1 resistencia de 1k
+* 1 resistencia de 330
+* 1 LCD 16 x 2
+* 1 potenciometro de 1k
+* 1 potenciometro de 10k
