@@ -33,3 +33,11 @@ El codigo de esta actividad se encuentra aqui: [Actividad_2.c](Codigo/Actividad_
 * [Simulacion de Actividad 2](Simulacion/Simmulacion_Practica_14_2.png) 
 * [Circuito Practica 14B](Circuito/Circuito_Actividad_14B.png) 
 * [Video Practica 14B](Circuito/Video_Actividad_14B.mp4) 
+
+## Lista de Materiales
+* PIC16F887
+* 1 Cristal de Cuarzo de 8 MHz
+* 1 Push Button
+* 1 Resistencia de 1k
+* 1 Servomotor azul SG90
+* 1 Potenciómetro lineal de 10k 
