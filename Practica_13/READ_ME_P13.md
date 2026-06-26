@@ -1,6 +1,6 @@
 # Practica 13: Control de Motor DC con Modulacion por Ancho de Pulso (PWM) y Puente H
 
-El objetivo principal de esta sesion es el control de motores de corriente continua (DC). En la primera parte se busca controlar la velocidad de giro mediante un circuito driver de motor DC basado en un transistor BJT. En la segunda parte, el objetivo es controlar tanto la velocidad como el sentido de giro del motor implementando un Puente H. Al igual que en practicas anteriores, la frecuencia del oscilador (HS) esta configurada a 8 MHz.
+El objetivo principal de esta sesion es el control de motores de corriente continua (DC). En la primera parte se busca controlar la velocidad de giro mediante un circuito driver de motor DC basado en un transistor BJT. En la segunda parte, el objetivo es controlar tanto la velocidad como el sentido de giro del motor implementando un Puente H. Al igual que en practicas anteriores, la frecuencia del oscilador esta configurada a 8 MHz.
 
 ---
 
