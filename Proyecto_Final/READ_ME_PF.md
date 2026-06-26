@@ -23,3 +23,13 @@ El codigo principal de este proyecto se encuentra aqui: [Proyecto_Final.c](Codig
 * [Simulacion del Proyecto Final](<Simulacion/MP. Proyecto Final.png>)
 * [Circuito Proyecto Final](<Circuito/Circuito_Proyecto_Final.jpg>)
 * [Video Proyecto Final](<Circuito/Video_Proyecto_Final.mp4>)
+
+## Lista de Materiales
+* 1 PIC16F887
+* 1 Cristal de Cuarzo de 8 MHz
+* 5 Push Buttons
+* 2 Resistencias de 1k
+* 2 Resistencias de 330
+* 1 Potenciómetro lineal de 10k
+* 2 LEDs
+* 1 Servomotor azul SG90
