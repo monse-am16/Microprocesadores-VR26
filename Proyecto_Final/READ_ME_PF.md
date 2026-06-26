@@ -1,4 +1,4 @@
-# Proyecto Final: Control y Memorizacion de Posiciones en Servomotor (Record & Play)
+# Proyecto Final: Record & Play de Posiciones de Servomotor
 
 El objetivo principal de este proyecto final es diseñar e implementar un sistema interactivo capaz de controlar la posicion de un servomotor mediante un potenciometro, dotandolo de una memoria para grabar secuencias de movimiento y reproducirlas de forma automatica. Para este proyecto, el microcontrolador hace uso de su oscilador interno configurado a 8 MHz.
 
