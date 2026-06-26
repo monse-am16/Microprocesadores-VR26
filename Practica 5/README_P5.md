@@ -4,64 +4,47 @@ Este repositorio integra las 3 partes que componen la práctica 5. El objetivo p
 
 ---
 
-## Clase 5A: Lectura de voltaje analogico
+## Clase 5A: Contador Multiplexado (0 - 9999)
 
-### Descripción
-Se configura el pin A0 (`ANSEL = 0x01`) para realizar lecturas analógicas con una resolucizn de 10 bits, es decir, una lectura de valores de 0 a 1023 (ADC). El programa lee el valor analógico y realiza la conversión matemática para obtener el voltaje real, empleando en este caso como maximo el valor de 5V, empleando una regla de 3 para obtener el voltaje proporcional. 
-
-Para evitar el uso intensivo de variables de punto flotante (`float`), el código multiplica el resultado por 50,000 y separa la parte entera de la decimal mediante divisiones y residuos, convirtiéndolo a texto (`sprintf`) para mostrarlo en la pantalla LCD conectada al Puerto C.
+### Descripcion
+En esta primera parte se implementa un contador del 0 al 9999 utilizando un display de 7 segmentos de 4 digitos. Para visualizar los 4 numeros al mismo tiempo, se emplea la **multiplexacion**. 
+El microcontrolador descompone el numero en millares, centenas, decenas y unidades. Luego, mediante el Puerto C, enciende un solo digito a la vez, enviando la secuencia correspondiente por el Puerto D. Este proceso se repite con retardos muy cortos (`__delay_ms(1)`), engañando al ojo humano por la persistencia de la vision.
 
 ### Codigo Fuente
-El código de esta práctica se encuentra aqui: [Clase_7.c](Codigo/Clase_7.c)
+El codigo de esta práctica se encuentra aqui: [Clase_7.c](Codigo/Clase_5A.c)
 
-### Simulacion y Circuito Fisico
+### Simulacion
+* [Simulacion de Clase 5A](Simulacion/MP.Clase_5A.png) 
 
-* [Simulacion de Clase](Simulacion/Simulacion_Clase_7.png) 
-* [Circuito Practica 7](Circuito/Circuito_Practica_7.png) 
-* [Video Practica 7](Circuito/Video_Practica_7.mp4) 
-
-*El circuito y el video son los mismos para la practica y la actividad de clase, ya que en la actividad de clase se integra el codigo desarrollado con el profesor*
 
 ---
 
-## Clase 5B: Lectura de voltaje analogico
+## Clase 5B: Interrupciones Externas
 
-### Descripción
-Se configura el pin A0 (`ANSEL = 0x01`) para realizar lecturas analógicas con una resolucizn de 10 bits, es decir, una lectura de valores de 0 a 1023 (ADC). El programa lee el valor analógico y realiza la conversión matemática para obtener el voltaje real, empleando en este caso como maximo el valor de 5V, empleando una regla de 3 para obtener el voltaje proporcional. 
-
-Para evitar el uso intensivo de variables de punto flotante (`float`), el código multiplica el resultado por 50,000 y separa la parte entera de la decimal mediante divisiones y residuos, convirtiéndolo a texto (`sprintf`) para mostrarlo en la pantalla LCD conectada al Puerto C.
+### Descripcion
+Se introduce el uso de **Interrupciones Externas** por hardware. Se define el pin RB0 para detectar un flanco de bajada (`INTEDG = 0`).
+El programa principal (bucle `while`) simplemente muestra un contador del 0 al 9 en un solo display de 7 segmentos. Sin embargo, al presionar el botón conectado a RB0, se activa la bandera `INTF` e interrumpe el programa para ejecutar la función `ISR` (Rutina de Servicio de Interrupción), la cual hace parpadear un LED conectado en RC0 antes de regresar a la cuenta normal.
 
 ### Codigo Fuente
-El código de esta práctica se encuentra aqui: [Clase_7.c](Codigo/Clase_7.c)
+El codigo de esta práctica se encuentra aqui: [Clase_7.c](Codigo/Clase_5B.c)
 
-### Simulacion y Circuito Fisico
-
-* [Simulacion de Clase](Simulacion/Simulacion_Clase_7.png) 
-* [Circuito Practica 7](Circuito/Circuito_Practica_7.png) 
-* [Video Practica 7](Circuito/Video_Practica_7.mp4) 
-
-*El circuito y el video son los mismos para la practica y la actividad de clase, ya que en la actividad de clase se integra el codigo desarrollado con el profesor*
+### Simulacion
+* [Simulacion de Clase 5B](Simulacion/MP.Clase_5B.png) 
 
 ---
 
-## Actividad 5: Multímetro con Menú Interactivo (Botón)
+## Actividad 5: Contador Bidireccional Multiplexado
 
-### Descripción
-Esta actividad toma como base la practica de clase, pero añade una interrupcion, permitiendo que se establezca una interaccion con el circuito mediante un pulsador conectado al pin RB0. Se establece una *Interrupción Externa* en el flanco de bajada (`INTEDG = 0`). 
-
-Cada vez que se presiona el pulsador, la interrupcion cambia el valor de una variable de estado (`disp_mod`), lo que permite alternar la informacion mostrada en la pantalla LCD en tres modos diferentes:
-1. **Voltaje:** Muestra la lectura escalada de 0 a 5 Volts.
-2. **Porcentaje:** Muestra la lectura analogica como un porcentaje (0% a 100%).
-3. **ADC:** Muestra el valor crudo de los ADC (0 a 1023).
+### Descripcion
+Esta actividad combina la multiplexacion de la Clase 5A con la lectura de botones de la Clase 5B (utilizando las resistencias Pull-up internas del microcontrolador `WPUB = 0xFF`). 
+El programa consiste en un contador de 0 a 9999 que se muestra en los 4 displays. Al detectar que el pulsador conectado a RB0 es presionado (cambio de estado de 1 a 0), el sistema invierte la direccion del conteo, permitiendo que el contador incremente o decremente dinamicamente. 
 
 ### Codigo Fuente
-El código de esta actividad se encuentra aqui: [Actividad_7.c](Codigo/Actividad_7.c)
+El codigo de esta actividad se encuentra aqui: [Actividad_7.c](Codigo/Actividad_5.c)
 
 ### Simulacion y Circuito Fisico
 
-* [Simulacion de Actividad 7](Simulacion/Simulacion_Actividad_7.png) 
-* [Circuito Practica 7](Circuito/Circuito_Practica_7.png) 
-* [Video Practica 7](Circuito/Video_Practica_7.mp4) 
-
-*El circuito y el video son los mismos para la practica y la actividad de clase, ya que en la actividad de la sesion se integra el codigo desarrollado con el profesor*
+* [Simulacion de Actividad 7](Simulacion/MP.Practica_5.png) 
+* [Circuito Practica 7](Circuito/Circuito_Practica_5.jpg) 
+* [Video Practica 7](Circuito/Video_Practica_5.mp4) 
 
