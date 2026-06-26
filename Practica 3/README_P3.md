@@ -14,6 +14,16 @@ Dado que el display es de **ánodo común**, los segmentos individuales se encie
 
 ---
 
+## Materiales:
+* PIC16F887
+* 1 cristal de cuarzo de 8 MHz
+* 1 pulsador
+* 1 resistencia de 1k
+* 7 resistencias de 330
+* 1 display de 7 segmentos anodo comun
+
+---
+
 ## Contenido de la Carpeta
 
 Esta carpeta contiene todos los entregables y evidencias del desarrollo de la práctica:
