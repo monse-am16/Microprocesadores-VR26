@@ -19,6 +19,15 @@ El código de esta práctica se encuentra aquí: [Clase.c](Codigo/Clase.c)
 * [Circuito Físico Clase](Circuito/Circuito_Clase_6.jpg)
 * [Video de Funcionamiento Clase](Circuito/Video_Clase_6.mp4)
 
+## Materiales:
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* 1 pulsador
+* 1 resistencia de 1k
+* 1 resistencia de 330
+* 1 LCD 16 x 2
+* 1 potenciometro de 1k
+
 ---
 
 ## Actividad: Menú Interactivo con Botón y Caracteres Personalizados (CGRAM)
@@ -41,3 +50,12 @@ El código de esta actividad se encuentra aquí: [Actividad.c](Codigo/Actividad.
 * [Simulación Actividad](Simulacion/MP.%20Practica%206.png)
 * [Circuito Físico Actividad](Circuito/Circuito_Actividad_6.jpg)
 * [Video de Funcionamiento Actividad](Circuito/Video_Actividad_6.mp4)
+
+## Materiales:
+* PIC16F887
+* Cristal de cuarzo de 8 MHz
+* 2 pulsadores
+* 1 resistencia de 1k
+* 1 resistencia de 330
+* 1 LCD 16 x 2
+* 1 potenciometro de 1k
