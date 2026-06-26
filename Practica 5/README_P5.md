@@ -29,7 +29,7 @@ El programa principal (bucle `while`) simplemente muestra un contador del 0 al 9
 El codigo de esta práctica se encuentra aqui: [Clase_7.c](Codigo/Clase_5B.c)
 
 ### Simulacion
-* [Simulacion de Clase 5B](Simulacion/MP.%20Clase%205B.png) 
+* [Simulacion de Clase 5B](Simulacion/MP.%20Practica%205B.png) 
 
 ---
 
