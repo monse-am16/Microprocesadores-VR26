@@ -57,6 +57,7 @@ Para mantener el programa principal limpio y facilitar la reutilizacion de codig
 * PIC16F887
 * Cristal de Cuarzo de 8 MHz
 * Display LCD 2x16
+* Potenciómetro de 1k lineal
 * Teclado numérico matricial 4x4
 * Push Button
 * Resistencia de 1k
