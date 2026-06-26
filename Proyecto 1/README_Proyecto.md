@@ -20,5 +20,5 @@ El código de este proyecto final se encuentra aquí: [Proyecto.c](Codigo/Proyec
 
 ### Simulación y Circuito Físico
 * [Simulación del Proyecto](Simulacion/MP.%20Proyecto%201.png) 
-* [Circuito del Proyecto](Circuito/Circuito_Proyecto.jpg) 
-* [Video del Proyecto](Circuito/Video_Proyecto.mp4)
+* [Circuito del Proyecto](Circuito/Circuito_Proyecto_1.jpg) 
+* [Video del Proyecto](Circuito/Video_Proyecto_1.mp4)
