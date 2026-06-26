@@ -16,8 +16,8 @@ El codigo de esta actividad se encuentra aqui: [Actividad_1.c](Codigo/Actividad_
 ### Simulacion y Circuito Fisico
 
 * [Simulacion de Actividad 1](<Simulacion/MP. Practica 13_1.png>) 
-* [Circuito Practica 13](Circuito/Circuito_Actividad_13A.jpg) 
-* [Video Practica 13](Circuito/Video_Actividad_13A.mp4) 
+* [Circuito Practica 13B](Circuito/Circuito_Actividad_13A.jpg) 
+* [Video Practica 13B](Circuito/Video_Actividad_13A.mp4) 
 
 ---
 
@@ -33,8 +33,5 @@ El codigo de esta actividad se encuentra aqui: [Actividad_2.c](Codigo/Actividad_
 ### Simulacion y Circuito Fisico
 
 * [Simulacion de Actividad 2](<Simulacion/MP. Practica 13_2.png>) 
-* [Circuito Practica 13](Circuito/Circuito_Actividad_13B.jpg) 
-* [Video Practica 13](Circuito/Video_Actividad_13B.mp4)
-
-
-*El circuito y el video son los mismos para ambas actividades si en la sesion se integro el codigo desarrollado para ambas etapas.*
+* [Circuito Practica 13B](Circuito/Circuito_Actividad_13B.jpg) 
+* [Video Practica 13B](Circuito/Video_Actividad_13B.mp4)
